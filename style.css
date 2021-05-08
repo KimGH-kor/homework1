@@ -1,0 +1,175 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    border-collapse: collapse;
+
+}
+a{
+    color: white;
+}
+.text0{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgba(0,0,0,0.5);
+
+}
+h2{
+    color: white;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    position: relative;
+    bottom: -200px;
+    font-size: 40px;
+}
+/* 기본값 */
+.nav_ > div > h1{
+    font-size: 80px;
+    text-align: center;
+    height: 200px;
+    color: white;
+}
+/* 반지의 제왕 머릿말 */
+.backgr{
+    background-image: url(img/1.jpg);
+    background-size: auto;
+}
+.backgr2{
+    background-image: url(img/2.jpg);
+    margin: 0px;
+    height: 1500px;
+    width: 1903;
+    }
+.backgr3{
+    background-image: url(img/3.jpg);
+    margin: 0px;
+    height: 1500px;
+    width: 1903;
+    }
+.backgr4{
+    background-image: url(img/4.jpg);
+    margin: 0px;
+    height: 1500px;
+    width: 1903;
+    }
+/* 뒤에 배경 */
+.nav{
+    font-size: 18px;
+    position: fixed;
+    width: 260px;
+    height: 500px;
+}
+
+.nav > li:not(:last-child){
+    margin-right: 150px;
+    margin-bottom: 70px;
+}
+.nav > li > a{
+    color: red;
+    
+}
+/* 네비게이션 */
+.search{
+    position: relative;
+    left: 1500px;
+    width: 300px;
+    height: 40px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    margin-top: 24px;
+        
+}
+.search > form{
+    margin-block-end: 10px;
+}
+.search > form > span{
+    color: white;
+    cursor: pointer;
+    width: 50px;
+    font-weight: bold;
+    margin: auto;
+}
+.search > form > input{
+    width: 250px;
+    height: 40px;
+    background: rgba(0,0,0,0.0);
+    border-radius: 5px;
+    color: white;
+    padding-left: 10px;
+    border:none;
+}
+/* 검색창 */
+
+.nav2{
+    height: 1500px;
+    width: 1903px;
+
+}
+
+.youtu {
+    text-align: center;
+}
+.youtu > iframe{
+    margin-top: 300px;
+}
+
+/* 파트1 반지의 원정대 */
+
+.youtu1 {
+    text-align: center;
+}
+.youtu1 > iframe{
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+.nav3{
+    height: 1500px;
+    width: 1903px;
+
+}
+/* 파트2 두개의 탑 */
+.youtu2 {
+    text-align: center;
+}
+.youtu2 > iframe{
+    margin-top: 300px;
+    margin-bottom: 50px;
+}
+.nav4{
+    height: 1500px;
+    width: 1903px;
+
+}
+
+/* 파트3 왕의 귀환 */
+
+footer{
+    width: 1903px;
+    height: 244px;
+    display: flex;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+}
+.footer1{
+    flex: 1;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    border-right: 1px solid white;
+}
+.text1{
+    flex: 2;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 100px;
+    text-align: left;
+}
+/* 푸털 */
